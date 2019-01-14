@@ -1,13 +1,23 @@
+
+
 def hello
-  puts "Hello"
+  puts "Hello!"
   return "Hello!"
 end 
-
-def greet
- name = gets.chomp
- puts "#{hello}, #{name}!"
- return greet
-end
-
 hello
-greet
+
+name = gets.chomp
+def greet(name)
+ hello = "Hello"
+ puts "#{hello}, #{name}!"
+ return "#{hello}, #{name}!"
+end
+greet(name)
+
+name2 = gets.chomp
+def greet2(name2)
+    hello = "Hello"
+    puts "#{hello}, #{name2}!"
+    return "#{hello}, #{name2}!"
+   end
+   greet2(name2)
