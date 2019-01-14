@@ -2,14 +2,18 @@ a = gets.chomp.to_i
 b = gets.chomp.to_i
 c = gets.chomp.to_i
 
-def who_is_bigger
+def who_is_bigger(a, b, c)
 
   if (a != nil && b != nil && c != nil)
 
-      case 
+  return [a, b, c].max
+
+
 
 
   else
-    puts "nil detected"
 
+    return "nil detected"
+
+  end
 end
