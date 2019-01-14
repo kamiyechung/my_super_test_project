@@ -17,3 +17,7 @@ end
 def first_word(a)
     a.split.first
 end
+
+def titleize (word)
+    word.capitalize 
+end
