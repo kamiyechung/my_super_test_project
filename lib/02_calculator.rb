@@ -16,9 +16,7 @@ end
 
 def sum(array)
     s = 0
-    # empty = 0
-# nil = 0
- array.each { |x| s+= x }
+    array.each { |x| s+= x }
 return s
 end
 
