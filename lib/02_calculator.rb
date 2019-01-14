@@ -21,3 +21,8 @@ def sum(array)
  array.each { |x| s+= x }
 return s
 end
+
+def multiply(number1, number2)
+    puts number1 * number2
+    return number1 * number2
+end
